@@ -1,0 +1,87 @@
+/* ESTILOS GENERALES */
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS PARA EL BODY */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ESTILOS PARA LA BARRA DE NAVEGACION */
+nav {
+    margin-top: 15vh;
+    margin-bottom: 4vh;
+}
+
+nav .nav-item .nav-link {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+/* ESTILOS DEL CONTENIDO PRINCIPAL */
+main {
+    flex-grow: 1; 
+    padding: 20px;
+}
+
+/* ESTILOS PARA LAS COLUMNAS */
+.main-container .col-6 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* IMAGEN DE ELEVADOR */
+#img-elevador {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* ESTILOS DEL FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1000px) {
+    .main-container .row {
+        flex-direction: column;
+    }
+
+    .main-container .col-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 580px) {
+    nav .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    nav .nav-item {
+        width: 100%;
+    }
+
+    nav .nav-link {
+        text-align: center;
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+}
