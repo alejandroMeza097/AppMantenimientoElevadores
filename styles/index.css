@@ -17,6 +17,9 @@ nav {
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
+.col-6{
+    align-items: center;
+}
 
 nav .nav-item .nav-link {
     color: black;
@@ -52,7 +55,7 @@ main {
 .logo{
     
     max-width: 30vw;    
-    max-height: 15vh;    
+    max-height: 30vh;    
     object-fit: contain;
 }
 
@@ -70,6 +73,7 @@ footer {
 @media (max-width: 1000px) {
     .main-container .row {
         flex-direction: column;
+        justify-content: center;
     }
 
     .main-container .col-6 {
