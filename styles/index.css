@@ -14,14 +14,17 @@ body {
 
 /* ESTILOS PARA LA BARRA DE NAVEGACION */
 nav {
-    margin-top: 15vh;
-    margin-bottom: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 nav .nav-item .nav-link {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
+}
+.titulo{
+    text-align: center;
 }
 
 /* ESTILOS DEL CONTENIDO PRINCIPAL */
@@ -40,10 +43,17 @@ main {
 
 /* IMAGEN DE ELEVADOR */
 #img-elevador {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+/* LOGO*/
+.logo{
+    
+    max-width: 30vw;    
+    max-height: 15vh;    
+    object-fit: contain;
 }
 
 /* ESTILOS DEL FOOTER */
